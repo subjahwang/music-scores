@@ -1,4 +1,4 @@
-%Last updated 2014-02-18 23:09 Pacific time
+%Last updated 2014-02-19 00:12 Pacific time
 %
 %Released under the terms of the Creative Commons Attribution-ShareAlike 4.0 International license.
 %This means you can freely use this work and derive from it so long as you give me attribution
@@ -9,6 +9,7 @@
 %    To Do:
 %	1) Finish part
 %	2) Add in text instructions
+%	3) Correct polyphonic part
 %
 %Contact me at mikemoral at live dot com.
 
@@ -34,19 +35,21 @@ global = {
   \tempo "Vivace"
 }
 
+rip = \mark \markup \small "Rip." 
+
 trumpetBb = \relative c'' {
   \global
   \transposition bes
   d8-.-\pp r8 r4
-  r4 r8 \mark \markup \small "Solo con sordini" f,8->-\mf
+  r4 r8 f,8->-\mf \mark \markup \small "Solo con sordini"
   g8-> d'4-> d8
   f8.([ e16 d8-.) e-.]
   c8.([ d16 c8-.) a-.]			%Measure 5
   c4. f,8->
   g8-> d'4-> d8 
   f8.([ e16 d8) c-.]
-  d2(
-  d4.) d8-.				%Measure 10
+  d2 ~
+  d4. d8-.				%Measure 10
   c8.([ d16 c8-.) bes-.]
   a8-.[ bes-. c-. a-.]
   bes4.( ees8
@@ -75,6 +78,47 @@ trumpetBb = \relative c'' {
   b4. a8->
   b4. a8->
   \repeat percent 3 { e8-.[ a-. e-. a-.] }
+  <<
+    { r4 r8 fis8-\p \mark \markup \small "Solo" }
+    \\
+    { e8-.[ a-. e-. a-.] }
+  >>
+  g8-> d'4-> d8
+  f8.([ e16 d8-.) e-.]
+  c8.([ d16 c8-.) a-.]
+  c4. f8-.
+  g-> d4-> d8
+  f8.([ e16 d8) c-.]
+  d2 ~
+  d4. d8.
+  c8.([ d16 c8-.) bes-.]
+  a8-.[ bes-. c-. a-.]
+  bes4.( ees8
+  bes4.) d8
+  c8.([ d16 c8-.) bes-.]		%Measure 15
+  g8-.[ f-. ees-. g-.]
+  a2
+  <<
+    { a4. f8
+      g8-> d'4-> d8
+      f8.([ e16 d8-.) e-.]
+      c8.([ d16 c8-.) a-.]
+      c4. f,8->
+      g8-> d'4-> d8 
+      f8.([ e16 d8) c-.]
+      d4. r8
+      r1
+    }
+    \\
+    { r4 r8 a8
+      g8-. a-. a-. a-.
+      \repeat percent 3 { a-. a-. a-. a-.}
+      g8-. a-. a-. a-.
+      a-. a-. a-. a-.
+      a-. a-. a-. g-.
+      d4. c8
+    }
+  >>
 }
 
 \score {
