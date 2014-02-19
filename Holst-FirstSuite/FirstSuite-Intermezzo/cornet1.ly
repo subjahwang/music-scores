@@ -39,8 +39,8 @@ trumpetBb = \relative c'' {
   \transposition bes
   d8-.-\pp r8 r4
   r4 r8 \mark \markup \small "Solo con sordini" f,8->-\mf
-  g8-> d4-> d8
-  f'8.([ e16 d8-.) e-.]
+  g8-> d'4-> d8
+  f8.([ e16 d8-.) e-.]
   c8.([ d16 c8-.) a-.]			%Measure 5
   c4. f,8->
   g8-> d'4-> d8 
