@@ -35,12 +35,22 @@ trumpetBb = \relative c'' {
   \compressFullBarRests
   r4 f4-.-\ff e-. a,-.
   R1*2
-  r2 a->-\mf
+  r2 a'->-\mf
+  g4-\ff d f d
+  e8 f e d c4 bes
+  a d d8 c d4
+  a d a'2->
+  g4 d f d
+  e8 f e d c4 bes
+  a d d8 e d c
+  d4 r4 c2->
+  a4. a8 a4 a
+  a4. a8 a4 c
 }
 
 \score {
   \new Staff \with {
-    instrumentName = "Trumpet in Bb"
+    instrumentName = "1st Bb Cornet"
     midiInstrument = "trumpet"
   } \trumpetBb
   \layout { }
