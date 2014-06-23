@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%This score was last updated
-%%	23 June 2014 03:32 PST
+%% This score was last updated
+%%	23 June 2014 15:40 PST
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \version "2.18.2"
@@ -12,7 +12,7 @@
   composer = "Gustav Holst"
   tagline = "Music engraving by LilyPond 2.18.2. This score was last updated on 23 June 2014."
   copyright = "This score is released under the terms of the Creative Commons ShareAlike Attribution 4.0 license"
-}s
+}
 
 global = {
   \key f \major
@@ -28,7 +28,7 @@ cornetBb = \relative c'' {
   \set Score.markFormatter = #format-mark-box-alphabet
   \partial 4 r4
   R2.*7
-  r4 r4 a4^\markup {\italic \smaller "Legato"}-\p ~ ( 
+  r4 r4 a4^\markup {\italic \smaller "legato"}-\p ~ ( 
   a g f
   g2) c4~ (
   c bes a
@@ -55,6 +55,16 @@ cornetBb = \relative c'' {
   r8 g16-\markup{\italic "crescendo"} a bes8[ a16 bes] c8[ bes16 c]
   d8[ c16 d] e8[ d16 e] f8-\ff r8 \mark \default
   e8^\markup {\italic "Brillante"} r8 r4 f8 r8
+  g8 r8 r4 c,8 r8
+  f8 r8 b,8 r8 r4
+  c8 r8 r4 c8 r8
+  d8 r8 r4 c8 r8
+  a8 r8 b8 r8 r4
+  c8 r8 r4 r4
+  r4 r4 f,4^\markup {\italic "tenuto"}
+  g2 d'4
+  c2 a4 f4 g2
+  c,2 <a a'>4
   
   
 }
