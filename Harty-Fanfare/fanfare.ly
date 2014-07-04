@@ -57,7 +57,9 @@ drumsPart = \new DrumStaff \with {
 
 \paper {
   #(set-paper-size "letter")
-  page-count = 1
+  %page-count = 1
+  between-system-padding=0
+  ragged-last-bottom = ##f
 }
 
 \score {
