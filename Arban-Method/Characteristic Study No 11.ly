@@ -1,5 +1,5 @@
-% This Lilypond file is copyrighted under the terms of the CC-BY-SA 4.0 license
-% 
+% This Lilypond file is copyrighted and is released under the terms of the CC-BY-SA 4.0 license
+% https://creativecommons.org/licenses/by-sa/4.0/
 % This score last updated 26 August 2014.
 
 \version "2.18.2"
