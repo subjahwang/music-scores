@@ -7,7 +7,7 @@
 \header {
   title = "Characteristic Study No. 11"
   composer = \markup { \smallCaps "Jean-Baptiste Arban" }
-  copyright = "This score is released under the terms of the Creative Commons ShareAlike Attribution 4.0 license"
+  copyright = "©2014 Michael Morales. This score is released under the terms of the Creative Commons ShareAlike Attribution 4.0 license"
   instrument = \markup { "B♭ Trumpet" }
 }
 
@@ -44,7 +44,7 @@ trumpetBb = \relative c'' {
   a4. ( e16) d-. a-. cis,( d) f-. a-. d-. f-. a-.
   g( fis) f-. e-. d-. c-. b-. a-. a( g) b-. a-. g-. f-. e-. d-.
   c( d) e-. f-. fis-. g-. a-. b-. c4 r8 c8 \bar "||"
-  \key aes \major \tempo "Più lento" \set Score.tempoHideNote = ##t \tempo 4 = 90 c4 c8. c16 c8( ees, aes des)
+  \key aes \major \tempo "Più lento" c4 c8. c16 c8( ees, aes des)
   c4.( ees8 c4) \breathe aes8. aes16
   bes4( f'8.[ \turn ees16]) ees8( des ees, des')
   c4.( ees8) aes,4 r8 c8
@@ -62,7 +62,7 @@ trumpetBb = \relative c'' {
 
 \score {
   \new Staff \with {
-    %instrumentName = "Trumpet in Bb"
+    %%instrumentName = "Trumpet in Bb"
     midiInstrument = "trumpet"
   } \trumpetBb
   \layout { }
