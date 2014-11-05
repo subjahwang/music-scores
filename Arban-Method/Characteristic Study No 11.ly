@@ -69,7 +69,8 @@ trumpetBb = \relative c'' {
   aes4.( f8 aes4) \breathe des8 ees
   f4 f8. f16 f4( \turn aes8) ges16-. f-.
   ees4 ~ ees8( aes,16) c ees4 \breathe ees8. f16
-  
+  ges4 ges8. ges16 ges4( f8) e
+  f2( des4) \breathe f8. f16
   
   
 }
