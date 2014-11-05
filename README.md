@@ -6,4 +6,4 @@ Currently, I'm working on Holst's First Suite in E-flat. I've other bits of Lily
 
 Scores are licensed for use under the Creative Commons Attribution ShareAlike 4.0 International license. The required attribution line is: "Mikemoral / CC-BY-SA 4.0".
 
-You can contact me at mikemoral [at] live [dot] com. 
+You can contact me at mikemoral [at] live [dot] com.
