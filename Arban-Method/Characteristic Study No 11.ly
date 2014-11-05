@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % This Lilypond file is copyrighted and is released %
 % under the terms of the CC-BY-SA 4.0 license       %
@@ -6,6 +7,14 @@
 %						    %
 %Contact me at mikemoral [at] live [dot] com.       %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+=======
+% This Lilypond file is copyrighted and is released under the terms of the CC-BY-SA 4.0 license
+% https://creativecommons.org/licenses/by-sa/4.0/
+% This score last updated 24 October 2014.
+%
+%Contact me at mikemoral [at] live [dot] com.
+
+>>>>>>> fbfadde9d31be5fbd98283666eb48be54c3a3d8c
 %\version "2.18.2"
 \version "2.14.2"
 
