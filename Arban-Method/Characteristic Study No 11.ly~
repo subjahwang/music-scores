@@ -1,13 +1,18 @@
-% This Lilypond file is copyrighted and is released under the terms of the CC-BY-SA 4.0 license
-% https://creativecommons.org/licenses/by-sa/4.0/
-% This score last updated 26 August 2014.
-
-\version "2.18.2"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This Lilypond file is copyrighted and is released %
+% under the terms of the CC-BY-SA 4.0 license       %
+% https://creativecommons.org/licenses/by-sa/4.0/   %
+% This score last updated 24 October 2014.          %
+%						    %
+%Contact me at mikemoral [at] live [dot] com.       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\version "2.18.2"
+\version "2.14.2"
 
 \header {
-  title = "Characteristic Study No. 11"
-  composer = \markup { \smallCaps "Jean-Baptiste Arban" }
-  copyright = "©2014 Michael Morales. This score is released under the terms of the Creative Commons ShareAlike Attribution 4.0 license"
+  title      = "Characteristic Study No. 11"
+  composer   = \markup { \smallCaps "Jean-Baptiste Arban" }
+  copyright  = \markup { "©2014 Michael Morales." \small "This score is released under the terms of the Creative Commons ShareAlike Attribution 4.0 license" }
   instrument = \markup { "B♭ Trumpet" }
 }
 
@@ -46,7 +51,7 @@ trumpetBb = \relative c'' {
   c( d) e-. f-. fis-. g-. a-. b-. c4 r8 c8 \bar "||"
   \key aes \major \tempo "Più lento" c4 c8. c16 c8( ees, aes des)
   c4.( ees8 c4) \breathe aes8. aes16
-  bes4( f'8.[ \turn ees16]) ees8( des ees, des')
+  bes4( f'8. \turn [ ees16]) ees8( des ees, des')
   c4.( ees8) aes,4 r8 c8
   c4 c8.[ c16] c8( ees aes,) aes'
   aes2( f4) \breathe f8.[ f16]
@@ -56,7 +61,16 @@ trumpetBb = \relative c'' {
   c16( aes') g f ees des c bes c( aes) ees c aes( c) ees aes
   bes-. des( ees des) ees,-. des'( ees des) g,-. des'( ees des) bes-. des( ees des)
   c( aes') g f ees-. des-. c-. bes-. aes4 \breathe aes,16( c) ees-. aes-.
-  c( des c b) c( c,) ees-. aes-. c( bes) c-. des-. ees-. f-. g-. aes-.
+  c( des c b) c( c,) ees-. aes-. c( bes) c-. des-. ees-. f-. g-. aes-. %bar 33
+  aes( f) c-. aes-. f4 ~ f8[ \breathe c16-. f-.] aes-. c-. f-. aes-.
+  g( e) c-. bes-. g-. e-. c-. e'-. g( f) e-. des-. c-. bes-. aes-. g-. %is the 3rd E a flat note? -- bar 35
+  f( e f) aes-. des( c b c) f8[ \breathe e16 f] e f \grace aes ges16.-\fermata f32 \bar "||"
+  \key des \major f4 f8. f16 f8[( ges16 f] ees8 des)
+  aes4.( f8 aes4) \breathe des8 ees
+  f4 f8. f16 f4( \turn aes8) ges16-. f-.
+  ees4 ~ ees8( aes,16) c ees4 \breathe ees8. f16
+  
+  
   
 }
 
