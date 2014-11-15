@@ -2,9 +2,10 @@
 % This Lilypond file is copyrighted and is released %
 % under the terms of the CC-BY-SA 4.0 license       %
 % https://creativecommons.org/licenses/by-sa/4.0/   %
-% This score last updated 5 November 2014.          %
+% This score last updated 15 November 2014.         %
 %						    %
-%Contact me at mikemoral [at] live [dot] com.       %
+% Contact me at mikemoral [at] live [dot] com.      %
+% Version 1 completed 2014-11-15 05:15 PDT          %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\version "2.18.2"
 \version "2.14.2"
@@ -71,8 +72,26 @@ trumpetBb = \relative c'' {
   ees4 ~ ees8( aes,16) c ees4 \breathe ees8. f16
   ges4 ges8. ges16 ges4( f8) e
   f2( des4) \breathe f8. f16
-  
-  
+  ees4 aes,8. ees'16 ees8.[( aes,16) aes8.( ees'16)]
+  des2 ~ des8[ \breathe f f f]
+  ees( aes, ees'4.)( ges8) ges ges
+  ees8( aes, ees'4.) fis8 fis fis
+  \key c \major g!8( e! f4) ~ f16[ \breathe e( f e] f16 e f e)
+  f8( d f4) ~ f16 d( f d f d f d)
+  f8( c f4) ~ f16[ \breathe c( f c] f c f c)
+  d8 g,16( fis) g b-. d-. g-. fis( e) e( d) d( c) b-. a-.
+  g2 r4 g8. g16
+  a16( g fis g) d'( c b c) e( d cis d) f!( e dis e)
+  g4.( f8) e8 e( dis e)
+  g16( fis) f-. e-. d-. c-. b-. a-. a( g) d'-. c-. b-. a-. g-. f-.
+  e( f e dis e f fis g c4) \breathe g8. g16
+  a16( g fis g) d'( c b c) e( d cis d) f!( e dis e)
+  a4.( f16) d-. a16-. cis,-( d) f-. a-. d-. f-. a-.
+  g16( fis) f-. e-. d-. c-. b-. a-. a( g) b-. a-. g-. f-. e-. d-.
+  c8-. fis16-. g-. a-. b-. c-. d-. e-. g,-. g'-. g,-. f'!-. g,-. e'-. g,-.
+  d'8 e,16-. f-. g-. a-. b-. c-. d-. g,-. f'-. g,-. e'-. g,-. d'-. g,-.
+  c-. g-. b-. g-. c-. g-. b-. g-. c4 e
+  c,1  \bar "|."
 }
 
 \score {
@@ -81,7 +100,7 @@ trumpetBb = \relative c'' {
     midiInstrument = "trumpet"
   } \trumpetBb
   \layout { }
-  \midi {
-    \tempo 4=100
-  }
+  %\midi {
+  %  \tempo 4=100
+  %}
 }
