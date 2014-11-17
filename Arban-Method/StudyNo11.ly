@@ -16,15 +16,15 @@
   copyright  = \markup { "©2014 Michael Morales." \small "This score is released under the terms of the Creative Commons ShareAlike Attribution 4.0 license" }
   instrument = \markup { "B♭ Trumpet" }
   
-  mutopiatitle = "Arban Method: Characteristic Study No. 11"
-  mutopiacomposer = ArbanJB
-  source = "Carl Fisher, 1893 available at http://imslp.org/wiki/Method_for_the_Cornet_(Arban,_Jean-Baptiste)"
-  date = 1893
-  style = Technique
-  license = "Creative Commons Attribution-ShareAlike 4.0"
-  maintainer = "Michael Morales"
-  maintainerEmail = "lagetisto [at] gmx [dot] com"
-  moreInfo = "One of the etudes from Jean-Baptiste Arban's <em>Method for the Cornet</em>.<br> You can find a list of my other scores at my <a href="http://imslp.org/wiki/User:Mikemoral">IMSLP contributor page</a>."
+  %mutopiatitle = "Arban Method: Characteristic Study No. 11"
+  %mutopiacomposer = ArbanJB
+  %source = "Carl Fisher, 1893 available at http://imslp.org/wiki/Method_for_the_Cornet_(Arban,_Jean-Baptiste)"
+  %date = 1893
+  %style = Technique
+  %license = "Creative Commons Attribution-ShareAlike 4.0"
+  %maintainer = "Michael Morales"
+  %maintainerEmail = "lagetisto [at] gmx [dot] com"
+  %moreInfo = "One of the etudes from Jean-Baptiste Arban's <em>Method for the Cornet</em>.<br> You can find a list of my other scores at my <a href="http://imslp.org/wiki/User:Mikemoral">IMSLP contributor page</a>."
 }
 
 global = {
@@ -109,7 +109,5 @@ trumpetBb = \relative c'' {
     midiInstrument = "trumpet"
   } \trumpetBb
   \layout { }
-  %\midi {
-  %  \tempo 4=100
-  %}
+  \midi { }
 }
