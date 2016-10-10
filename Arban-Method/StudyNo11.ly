@@ -38,6 +38,8 @@ trumpetBb = \relative c'' {
   \transposition bes
   % Music follows here.
   \tempo "Allegretto"
+  \set Score.tempoHideNote = ##t
+  \tempo 4 = 110
   g8. g16
   a16( g fis g) d'( c b c) e( d cis d) f( e dis e)
   g4.( f8) e8-. e( dis e)
