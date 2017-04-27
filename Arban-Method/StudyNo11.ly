@@ -23,7 +23,7 @@
   %style = Technique
   %license = "Creative Commons Attribution-ShareAlike 4.0"
   %maintainer = "Michael Morales"
-  %maintainerEmail = "lagetisto [at] gmx [dot] com"
+  %maintainerEmail = "lagetisto [at] gmail [dot] com"
   %moreInfo = "One of the etudes from Jean-Baptiste Arban's <em>Method for the Cornet</em>.<br> You can find a list of my other scores at my <a href="http://imslp.org/wiki/User:Mikemoral">IMSLP contributor page</a>."
 }
 
