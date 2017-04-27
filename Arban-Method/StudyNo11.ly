@@ -4,7 +4,7 @@
 % https://creativecommons.org/licenses/by-sa/4.0/   %
 % This score last updated 15 November 2014.         %
 %						    %
-% Contact me at mikemoral [at] live [dot] com.      %
+% Contact me at lagetisto [at] gmail (dot) com      %
 % Version 1 completed 2014-11-15 05:15 PDT          %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\version "2.18.2"
